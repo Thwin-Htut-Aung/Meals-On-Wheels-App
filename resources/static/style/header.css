@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+
+.background {
+	background-color: #074f57;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.signin {
+	font-size: 1.3rem;
+	background-color: white;
+	padding: 8px;
+	width: 140px;
+	outline: none;
+	border: none;
+	border-radius: 30px;
+}
+
+.signin:hover {
+	color: #074f57;
+	border-radius: 50%;
+	font-size: 1.7rem;
+}
+
+
+.navbar .nav_right ul li.nr_li {
+  
+  cursor: pointer;
+  color: #333;
+  font-size: 20px;
+  position: relative;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar .nav_right ul li.nr_li:hover {
+  color: #cefffc;
+}
+
+.navbar .nav_right ul li img {
+  width: 60px;
+  vertical-align: middle;
+  margin-top: 9px;
+}
+.navbar .nav_right ul li img:hover {
+  cursor: pointer;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.4);
+  transition-duration: 1.3s;
+  overflow: hidden;
+}
+
+.navbar .dd_menu {
+  position: absolute;
+  z-index: 3;
+  right: 10px;
+  top: 77px;
+  display: flex;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  display: none;
+}
+
+.navbar .dd_menu .dd_left {
+  background: #074f57;
+  padding: 15px 20px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.navbar .dd_menu .dd_left li {
+  color: #fff;
+  list-style: none;
+}
+.navbar .dd_menu .dd_left li:hover {
+  color: orange;
+}
+
+.navbar .dd_menu .dd_right {
+  padding: 15px 20px;
+}
+.navbar .dd_menu .dd_right li {
+  list-style: none;
+}
+.navbar .dd_menu .dd_right li:hover {
+  color: #074f57;
+  font-weight: bold;
+}
+.navbar .dd_menu .dd_right li a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 400;
+}
+.navbar .dd_menu .dd_right li a:hover {
+  color: #074f57;
+  font-weight: bold;
+}
+
+.navbar .dd_menu li {
+  margin-bottom: 10px;
+  color: #868686;
+}
+
+.navbar .dd_menu:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 30px;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.navbar .dd_main.active .dd_menu {
+  display: flex;
+}
+.navbar .dd_main.active .dd_menu:hover {
+  cursor: pointer;
+}
