@@ -1,4 +1,3 @@
 # Meals-On-Wheels-App
 A management app for a charitable organization
-
-I have collaborated on this web application with four classmates. We have implemented Spring Boot and JSP to develop it.
+In this application, I have implemented Spring Boot and JSP to provide a management system for a charitable organization that donates meals to people in need.
